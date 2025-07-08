@@ -63,16 +63,44 @@ h1{
 
 
 @media only screen and (min-width: 768px) {
-    /* Medium screens */
     .calculator {
-        max-width: 600px; /* Adjust the maximum width as needed */
+        max-width: 600px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    /* Large screens */
     .calculator {
-        max-width: 800px; /* Adjust the maximum width as needed */
+        max-width: 800px;
     }
 }
 
+@media (max-width:388px) {
+    .btn {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media (max-width:368px) {
+    .btn {
+        height: 68px;
+        width: 68px;
+    }
+}
+
+@media (max-width:340px) {
+    .calculator h1 {
+        font-size: 30px;
+    }
+    .btn {
+        height: 62px;
+        width: 62px;
+    }
+    #display{
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 0;
+    font-size: 16px;
+}
+}
