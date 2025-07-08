@@ -15,6 +15,7 @@ function clearDisplayVal(){
 function calculate(){
 
     var input = document.getElementById("display").value // Get the value entered into the display
+    console.log("Input", input)
     var result = eval(input) // Evaluate the mathematical expression using JavaScript's eval() function
  
     document.getElementById("display").value = result; // Display the result in the calculator's display
